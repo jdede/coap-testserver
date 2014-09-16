@@ -11,7 +11,9 @@ RUN mkdir -p /root/src/
 WORKDIR /root/src
 RUN git clone https://github.com/mkovatsc/Californium.git
 WORKDIR /root/src/Californium
-RUN mvn clean install
+
+# Building is not necessary: Binaries are in the repository.
+#RUN mvn clean install
 
 WORKDIR /root
 ADD tools /root
