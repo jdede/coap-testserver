@@ -9,4 +9,4 @@ This Dockerfile starts a CoAP plugtest testserver using Californium from
 docker run -p 5683:5683/udp jdede/coap-testserver
 ```
 
-Starts the server. You can access the server: coap://127.0.0.1
+starts the server. You can access the server: coap://127.0.0.1
